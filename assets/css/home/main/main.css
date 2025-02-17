@@ -1,0 +1,80 @@
+.container-main {
+  width: 1440px;
+  height: 650px;
+  margin: 0px auto;
+  padding-top: 25px;
+}
+
+.container-cards-main {
+  width: 1400px;
+  height: 600px;
+  margin: 0px auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+
+.container-card {
+  width: 300px;
+  height: 480px;
+  border-radius: 4px;
+  background-color: #e2e2e2;
+  transition: 1s;
+}
+
+.container-card:hover {
+  transform: translateY(-20px);
+  transition: 1s;
+  box-shadow: 2px 2px 10px lightgray;
+  border: 1px solid #000000;
+}
+
+.container-card img {
+  display: block;
+  max-width: 100%;
+  height: 350px;
+  border-radius: 4px 4px 0px 0px;
+  border: none;
+}
+
+.container-descricao-card {
+  padding: 10px;
+  height: 120px;
+}
+
+.container-descricao-card .titulo-card-main {
+  text-align: left;
+  text-transform: uppercase;
+  font-size: 1.8em;
+  margin-bottom: 4px;
+  color: #282828;
+}
+
+.container-descricao-card .titulo-cargo {
+  font-size: 1.1rem;
+  color: #3E3E59;
+}
+
+.container-descricao-card ul {
+  list-style: none;
+  margin-top: 10px;
+  display: flex;
+  gap: 10px;
+}
+
+.container-descricao-card ul li a {
+  display: inline-block;
+  padding: 4px 10px;
+  border-radius: 4px;
+  background-color: #fffff2;
+  font-size: 1rem;
+  color: #5F6980;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.container-descricao-card ul li a:hover {
+  background-color: #282828;
+  color: #ffffff;
+}
